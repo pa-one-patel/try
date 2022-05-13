@@ -1,0 +1,15 @@
+platform: linux
+image_resource:
+  type: registry-image
+  source:
+    repository: gitea/gitea
+inputs:
+  - name: repo
+outputs:
+  - name: repo
+params:
+  EMAIL: patelprince2041995@gmail.com
+  GIT_AUTHOR_NAME: pa-one-patel
+run:
+  path: cat
+  args: [repo/readme.txt]
