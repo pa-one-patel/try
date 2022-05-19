@@ -12,4 +12,4 @@ params:
   GIT_AUTHOR_NAME: pa-one-patel
 run:
   path: cat
-  args: [repo/readme.txt]
+  args: [repo/Document.txt]
