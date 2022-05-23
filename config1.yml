@@ -1,0 +1,16 @@
+ 
+platform: linux
+image_resource:
+  type: registry-image
+  source:
+    repository: gitea/gitea
+inputs:
+  - name: frepo
+outputs:
+  - name: frepo
+params:
+  EMAIL: patelprince2041995@gmail.com
+  GIT_AUTHOR_NAME: pa-one-patel
+run:
+  path: cat
+  args: [frepo/readme.txt]
