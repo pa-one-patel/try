@@ -12,5 +12,5 @@ params:
   EMAIL: patelprince2041995@gmail.com
   GIT_AUTHOR_NAME: pa-one-patel
 run:
-  path: cat
+  path: echo
   args: [frepo/readme.txt]
