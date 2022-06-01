@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 mkdir some-files
 echo "file" > some-files/file5
